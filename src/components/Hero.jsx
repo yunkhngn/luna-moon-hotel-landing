@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react'
 import './Hero.css'
 
 const HERO_IMAGES = [
-  'https://images.unsplash.com/photo-1542314831-c6a4d1409e1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
-  'https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
-  'https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1542314831-c6a4d1409e1c?q=80&w=1920&auto=format&fit=crop&fm=jpg',
+  'https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1920&auto=format&fit=crop&fm=jpg',
+  'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1920&auto=format&fit=crop&fm=jpg',
 ]
 
 export default function Hero() {
@@ -33,16 +33,29 @@ export default function Hero() {
       </div>
       <div className="container">
         <div className="hero-content">
-          <span className="hero-subtitle">Chào mừng đến với</span>
-          <h1 className="hero-title">Trải nghiệm nghỉ dưỡng hoàn hảo</h1>
+          <div className="hero-stars">★★★★★</div>
+          <span className="hero-subtitle">Chào mừng đến với Luna Moon</span>
+          <h1 className="hero-title">Kiến tạo kỳ nghỉ đẳng cấp thượng lưu</h1>
           <p className="hero-description">
-            Khám phá vẻ đẹp sang trọng và không gian ấm cúng tại Luna Moon Hotel. Nơi mọi chi
-            tiết đều được chăm chút để mang lại kỳ nghỉ tuyệt vời nhất cho bạn.
+            Đắm mình trong không gian sang trọng bậc nhất giữa lòng vịnh biển Nha Trang. Nơi tôn
+            vinh những giá trị nghỉ dưỡng đích thực và dịch vụ tận tâm cá nhân hóa cho riêng bạn.
           </p>
-          <a href="#rooms" className="btn-primary">
-            Khám phá ngay
-          </a>
+          <div className="hero-actions">
+            <a href="#rooms" className="btn-primary">
+              Đặt phòng ngay
+            </a>
+            <a href="#rooms" className="btn-secondary">
+              Khám phá dịch vụ
+            </a>
+          </div>
         </div>
+      </div>
+
+      <div className="scroll-indicator">
+        <div className="mouse">
+          <div className="wheel"></div>
+        </div>
+        <span style={{ fontSize: '0.8rem', letterSpacing: '2px' }}>SCROLL</span>
       </div>
     </section>
   )

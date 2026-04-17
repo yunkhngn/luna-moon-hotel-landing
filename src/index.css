@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary: #0f172a;
   --secondary: #d4af37;
@@ -18,11 +22,16 @@
 }
 
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   background-color: var(--bg-light);
   color: var(--text-main);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+}
+
+.luxury-font {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
 }
 
 h1,
@@ -31,8 +40,9 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Playfair Display', serif;
   color: var(--primary);
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.2;
 }
 

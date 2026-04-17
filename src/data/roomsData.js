@@ -1,0 +1,58 @@
+export const ROOMS_DATA = [
+  {
+    id: 1,
+    name: 'Phòng Superior',
+    desc: 'Không gian thoáng đãng tĩnh lặng với đầy đủ tiện nghi tiêu chuẩn.',
+    price: '1,200,000',
+    img: 'https://images.unsplash.com/photo-1591088398332-8a77d399e875?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    id: 2,
+    name: 'Phòng Deluxe Hướng Biển',
+    desc: 'Thưởng ngoạn cảnh biển tuyệt đẹp trực tiếp từ ban công phòng bạn.',
+    price: '1,800,000',
+    img: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    id: 3,
+    name: 'Suite Mặt Trăng (Luna Suite)',
+    desc: 'Đẳng cấp và sang trọng bậc nhất với khu vực phòng khách riêng biệt.',
+    price: '3,500,000',
+    img: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    id: 4,
+    name: 'Phòng Premium City View',
+    desc: 'Thiết kế hiện đại với cửa sổ lớn nhìn toàn cảnh thành phố về đêm.',
+    price: '1,950,000',
+    img: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    id: 5,
+    name: 'Phòng Family Connect',
+    desc: 'Hai không gian kết nối linh hoạt, lý tưởng cho gia đình nhiều thế hệ.',
+    price: '2,400,000',
+    img: 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    id: 13,
+    name: 'Penthouse Luna',
+    desc: 'Tầng cao nhất với phòng khách lớn và tầm nhìn bao quát thành phố biển.',
+    price: '4,900,000',
+    img: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    id: 14,
+    name: 'Phòng Superior Plus',
+    desc: 'Phiên bản nâng cấp của Superior với diện tích rộng và tiện nghi bổ sung.',
+    price: '1,450,000',
+    img: 'https://images.unsplash.com/photo-1505693322210-2311104ef056?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    id: 15,
+    name: 'Suite Royal Moon',
+    desc: 'Hạng phòng cao cấp nhất với không gian tiếp khách và phòng ngủ tách biệt.',
+    price: '5,500,000',
+    img: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=800&auto=format&fit=crop',
+  },
+]

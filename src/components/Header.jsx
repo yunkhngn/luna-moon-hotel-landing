@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container header-container">
         <a href="#home" className="logo-container">
           <img src="/logo.png" alt="Luna Moon Hotel Logo" className="logo-img" />
-          <span className="logo-text">LUNA MOON</span>
+          <span className="logo-text luxury-font">LUNA MOON</span>
         </a>
         <nav>
           <ul className="nav-menu">
