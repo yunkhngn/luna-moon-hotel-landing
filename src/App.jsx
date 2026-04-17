@@ -5,7 +5,7 @@ import Rooms from './components/Rooms'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import RoomDetail from './components/RoomDetail'
-import { ROOMS_DATA } from './data/roomsData'
+import { ROOMS_DATA } from '../data/roomsData'
 
 function App() {
   const [selectedRoomId, setSelectedRoomId] = useState(null)

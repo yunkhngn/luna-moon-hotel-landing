@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react'
 import './Hero.css'
 
 const HERO_IMAGES = [
-  'https://images.unsplash.com/photo-1542314831-c6a4d1409e1c?q=80&w=1920&auto=format&fit=crop&fm=jpg',
-  'https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1920&auto=format&fit=crop&fm=jpg',
-  'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1920&auto=format&fit=crop&fm=jpg',
+  '/hotel/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table.jpg',
+  '/hotel/luxury-classic-modern-bedroom-suite-hotel.jpg',
+  '/hotel/interior-modern-comfortable-hotel-room.jpg',
 ]
 
 export default function Hero() {

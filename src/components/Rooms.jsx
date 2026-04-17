@@ -1,6 +1,6 @@
 import React from 'react'
 import './Rooms.css'
-import { ROOMS_DATA } from '../data/roomsData'
+import { ROOMS_DATA } from '../../data/roomsData'
 
 export default function Rooms({ onSelectRoom }) {
   return (
