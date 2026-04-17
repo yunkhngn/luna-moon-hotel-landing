@@ -5,33 +5,33 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <h2 className="section-title">Lien He Voi Chung Toi</h2>
+        <h2 className="section-title">Liên Hệ Với Chúng Tôi</h2>
         <div className="contact-wrapper">
           <div className="contact-info">
-            <h3>Thong Tin Lien He</h3>
+            <h3>Thông Tin Liên Hệ</h3>
             <p style={{ marginBottom: '2rem', color: 'var(--text-muted)' }}>
-              Chung toi luon san sang ho tro ban. Hay lien he voi chung toi neu ban co bat ky cau
-              hoi nao.
+              Chúng tôi luôn sẵn sàng hỗ trợ bạn. Hãy liên hệ với chúng tôi nếu bạn có bất kỳ câu
+              hỏi nào.
             </p>
 
             <div className="info-item">
-              <div className="info-icon">D</div>
+              <div className="info-icon">📍</div>
               <div>
-                <strong>Dia chi</strong>
+                <strong>Địa chỉ</strong>
                 <p>Nha Trang, Vietnam</p>
               </div>
             </div>
 
             <div className="info-item">
-              <div className="info-icon">P</div>
+              <div className="info-icon">📞</div>
               <div>
-                <strong>Dien thoai</strong>
+                <strong>Điện thoại</strong>
                 <p>+84 123 456 789</p>
               </div>
             </div>
 
             <div className="info-item">
-              <div className="info-icon">E</div>
+              <div className="info-icon">✉️</div>
               <div>
                 <strong>Email</strong>
                 <p>contact@lunamoonhotel.com</p>
@@ -41,19 +41,19 @@ export default function Contact() {
 
           <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
             <div className="form-group">
-              <input type="text" className="form-control" placeholder="Ho va ten cua ban" required />
+              <input type="text" className="form-control" placeholder="Họ và tên của bạn" required />
             </div>
             <div className="form-group">
-              <input type="email" className="form-control" placeholder="Dia chi Email" required />
+              <input type="email" className="form-control" placeholder="Địa chỉ Email" required />
             </div>
             <div className="form-group">
-              <input type="tel" className="form-control" placeholder="So dien thoai" />
+              <input type="tel" className="form-control" placeholder="Số điện thoại" />
             </div>
             <div className="form-group">
-              <textarea className="form-control" placeholder="Ban can chung toi giup gi?" required />
+              <textarea className="form-control" placeholder="Bạn cần chúng tôi giúp gì?" required />
             </div>
             <button type="submit" className="btn-submit">
-              Gui Tin Nhan
+              Gửi Tin Nhắn
             </button>
           </form>
         </div>

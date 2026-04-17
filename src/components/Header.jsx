@@ -13,22 +13,22 @@ export default function Header() {
           <ul className="nav-menu">
             <li>
               <a href="#home" className="nav-link">
-                Trang chu
+                Trang chủ
               </a>
             </li>
             <li>
               <a href="#rooms" className="nav-link">
-                Phong nghi
+                Phòng nghỉ
               </a>
             </li>
             <li>
               <a href="#contact" className="nav-link">
-                Lien he
+                Liên hệ
               </a>
             </li>
           </ul>
         </nav>
-        <button className="btn-book">Dat phong ngay</button>
+        <button className="btn-book">Đặt phòng ngay</button>
       </div>
     </header>
   )
